@@ -337,7 +337,7 @@ message RtkPlanningConfig {
 }
 
 message StandardPlanningConfig {
-  repeated PlannerType planner_type = 1;  // supported planners
+  repeated PlannerType planner_type = 3;  // supported planners
   optional PlannerPublicRoadConfig planner_public_road_config = 2;
 }
 
